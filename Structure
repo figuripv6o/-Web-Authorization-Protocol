@@ -1,0 +1,20 @@
+/web-auth-protocol
+│
+├── server.js
+├── .env
+├── package.json
+│
+├── /config
+│   └── db.js
+│
+├── /middleware
+│   └── authMiddleware.js
+│
+├── /routes
+│   └── authRoutes.js
+│
+├── /controllers
+│   └── authController.js
+│
+└── /models
+    └── userModel.js
