@@ -1,3 +1,34 @@
+# 🐝 Web Authorization Protocol
+
+## Overview
+Secure authentication and authorization layer for APIs and applications.
+
+## Features
+- JWT Authentication
+- Middleware Protection
+- Role-Based Access
+- Secure Password Hashing
+
+## Flow
+Client → Middleware → Token Verify → Access Granted
+
+## Run
+npm install
+npx nodemon server.js
+
+## Endpoints
+POST /api/auth/register  
+POST /api/auth/login  
+GET /api/auth/protected  
+
+## Security
+- bcrypt password hashing
+- JWT token validation
+- protected routes only
+
+## Status
+ACTIVE
+
 # -Web-Authorization-Protocol
 Word
 
