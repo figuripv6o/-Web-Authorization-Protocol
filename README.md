@@ -29,27 +29,7 @@ GET /api/auth/protected
 ## Status
 ACTIVE
 
-# -Web-Authorization-Protocol
-Word
 
-🐝 Web Authorization Protocol
-
-
-A modular authentication + authorization control layer built with Node.js and Express.
-
-Designed to act as a secure gateway for APIs, apps, and platform ecosystems.
-
-
-
-🧠 Overview
-
-
-The Web Authorization Protocol provides:
-
-
-
-
-🔐 Secure user authentication (JWT-based)
 
 
 🎫 Access control via middleware
@@ -107,22 +87,7 @@ dotenv
 🚀 Getting Started
 
 
-1. Install dependencies
-
-
-npm install
-
-
-
-2. Configure environment
-
-
-Create a .env file:
-
-
-PORT=5000
-JWT_SECRET=your_secret_key
-
+1. 
 
 
 3. Run server
